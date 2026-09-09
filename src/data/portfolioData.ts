@@ -1,0 +1,303 @@
+import { Project, SkillItem, AcademicNode, Certificate, LabTopic } from '../types';
+
+export const PERSONAL_INFO = {
+  name: "RUCHITHA",
+  role: "Artificial Intelligence & Data Science Engineering Student",
+  degree: "B.Tech — AI & Data Science Engineering",
+  year: "2nd Year",
+  institution: "REVA University",
+  location: "Bengaluru, India",
+  tagline: "Learning. Building. Exploring Intelligence.",
+  supportingStatement: "A curious AI & Data Science engineering student building strong foundations in programming, data, and technology through practical projects.",
+  shortBio: "I'm Ruchitha, a 2nd-year Artificial Intelligence & Data Science Engineering student at REVA University. I’m currently strengthening my programming foundations in Python, C, and C++ while exploring data science, technology, and practical problem solving through academic projects.",
+  email: "ruchithashetty007@gmail.com",
+  github: "https://github.com/ruchithashetty007-rgb",
+  linkedin: "https://www.linkedin.com/in/ruchitha-a51183384/",
+  status: "CURRENTLY LEARNING",
+  statusSubtext: "Python • C • C++",
+  closingQuote: "This is not the final version. It's the version I'm building today.",
+};
+
+export const WHAT_DRIVES_ME = [
+  {
+    title: "Curiosity",
+    description: "Driven to understand how computing systems, algorithms, and intelligent models function from the ground up.",
+    icon: "Compass",
+  },
+  {
+    title: "Learning",
+    description: "Embracing a step-by-step approach to master foundational languages before venturing deeper into complex AI architectures.",
+    icon: "BookOpen",
+  },
+  {
+    title: "Problem Solving",
+    description: "Breaking down intricate technical challenges into modular logic, algorithmic clarity, and reproducible code.",
+    icon: "Cpu",
+  },
+  {
+    title: "Building Practical Projects",
+    description: "Translating theoretical coursework into hands-on implementations across IoT, graphics, and healthcare utilities.",
+    icon: "Layers",
+  },
+  {
+    title: "Exploring AI & Data Science",
+    description: "Actively studying data wrangling, statistical analysis, and machine learning primitives through structured courseware.",
+    icon: "Sparkles",
+  },
+];
+
+export const ACADEMIC_JOURNEY: AcademicNode[] = [
+  {
+    period: "Secondary School (10th)",
+    level: "10th / SSLC",
+    score: "586 / 625",
+    percentage: "93.76%",
+    highlight: "Academic Excellence in Mathematics & Science",
+    metricType: "Secondary Examination",
+  },
+  {
+    period: "Pre-University (11th - 12th)",
+    level: "PUC (PCMB)",
+    institution: "Mother Teresa's PU College",
+    location: "Shankaranarayana, Kundapura Taluk, Udupi",
+    score: "587 / 600",
+    percentage: "97.86%",
+    highlight: "Distinction Top Tier State Performance",
+    metricType: "Pre-University Board",
+  },
+  {
+    period: "Competitive State Entrance",
+    level: "KCET (Karnataka CET)",
+    score: "100 / 180",
+    rank: "14,000 Rank",
+    highlight: "State Competitive Rank securing engineering seat through Merit",
+    metricType: "State Examination",
+  },
+  {
+    period: "Undergraduate (Present)",
+    level: "B.Tech — AI & Data Science Engineering",
+    institution: "REVA University",
+    score: "2nd Year",
+    admissionMode: "Merit through KCET",
+    highlight: "Core focus on Data Structures, Algorithms, Python, C/C++, and Data Science fundamentals",
+    metricType: "University Degree",
+  },
+];
+
+export const SKILL_ITEMS: SkillItem[] = [
+  {
+    name: "Python",
+    level: "Basic Level",
+    stage: "foundation",
+    category: "Programming Foundations",
+    description: "Building foundational scripting skills, procedural logic, object-oriented concepts, and leveraging basic libraries for mathematical computations.",
+    iconName: "Code2",
+    topics: ["Syntax & Control Flow", "Functions & Modules", "Data Structures (Lists, Dictionaries)", "Basic OOP Concepts"],
+  },
+  {
+    name: "C",
+    level: "Basic Level",
+    stage: "foundation",
+    category: "Programming Foundations",
+    description: "Gaining low-level computing intuition through memory management basics, pointers, arrays, structures, and systems programming fundamentals.",
+    iconName: "Binary",
+    topics: ["Pointers & Memory", "Structs & Typedef", "Dynamic Memory Allocation", "File Operations"],
+  },
+  {
+    name: "C++",
+    level: "Basic Level",
+    stage: "foundation",
+    category: "Programming Foundations",
+    description: "Exploring standard template libraries, class abstractions, operator overloading, and performance-oriented structured coding.",
+    iconName: "TerminalSquare",
+    topics: ["Classes & Inheritance", "Polymorphism", "Standard Template Library (STL)", "Algorithm Logic"],
+  },
+  {
+    name: "Data Science",
+    level: "Currently Exploring",
+    stage: "exploring",
+    category: "Currently Exploring",
+    description: "Studying the data science lifecycle, workflow methodologies, data preparation principles, and statistical reasoning.",
+    iconName: "Database",
+    topics: ["Data Lifecycle", "Dataset Exploration", "Hypothesis Formulation", "Statistical Concepts"],
+  },
+  {
+    name: "Data Analysis",
+    level: "Currently Exploring",
+    stage: "exploring",
+    category: "Currently Exploring",
+    description: "Learning tabular analysis, data cleaning pipelines, aggregating metrics, and exploratory data analysis using Python tools.",
+    iconName: "BarChart3",
+    topics: ["Exploratory Analysis (EDA)", "Data Cleaning", "Tabular Aggregations", "Correlation Identification"],
+  },
+  {
+    name: "Data Visualization",
+    level: "Currently Exploring",
+    stage: "exploring",
+    category: "Currently Exploring",
+    description: "Creating insightful charts, distributions, and graphical representations to translate raw tables into human-interpretable patterns.",
+    iconName: "LineChart",
+    topics: ["Distribution Charts", "Trend Plots", "Comparative Visuals", "Design Clarity"],
+  },
+  {
+    name: "Artificial Intelligence",
+    level: "Currently Exploring",
+    stage: "exploring",
+    category: "Currently Exploring",
+    description: "Exploring core AI paradigms, search algorithms, intelligent agent concepts, and introductory heuristic systems.",
+    iconName: "BrainCircuit",
+    topics: ["Agent Architectures", "Search & Heuristics", "Knowledge Representation", "AI Ethics Basics"],
+  },
+  {
+    name: "Machine Learning",
+    level: "Currently Exploring",
+    stage: "exploring",
+    category: "Currently Exploring",
+    description: "Investigating supervised and unsupervised learning fundamentals, regression, classification, and evaluation metrics.",
+    iconName: "Sparkles",
+    topics: ["Supervised Learning Basics", "Linear Regression Primitives", "Classification Concepts", "Model Evaluation Metrics"],
+  },
+];
+
+export const PROJECTS: Project[] = [
+  {
+    id: "innovexa",
+    number: "01",
+    title: "INNOVEXA",
+    subtitle: "Smart Healthcare & Emergency Alert System",
+    category: "HEALTHCARE • EMERGENCY • TECHNOLOGY",
+    description: "A technology-focused project designed around smart healthcare support and emergency alert functionality.",
+    tags: ["HEALTHCARE", "EMERGENCY", "TECHNOLOGY"],
+    accentColor: "from-rose-500/20 via-blue-500/10 to-transparent",
+    problem: "In critical healthcare scenarios, latency in alerting family members or emergency contacts can result in delayed assistance. The goal was to conceptualize a rapid, dependable alert trigger.",
+    solution: "Structured an alert transmission workflow providing automated messaging and status notifications to designated medical contacts upon distress trigger detection.",
+    contribution: "Co-developed system architecture logic, alert dispatch routines, and interface prototyping for seamless emergency response simulation.",
+    learnings: [
+      "Understanding real-time trigger constraints in mission-critical applications",
+      "Designing fault-tolerant notifications with fallback mechanisms",
+      "Structuring modular user and contact records",
+    ],
+    visualType: "healthcare",
+  },
+  {
+    id: "smart-farming",
+    number: "02",
+    title: "SMART FARMING",
+    subtitle: "Smart Farming & Crop Monitoring using Blynk IoT Platform",
+    category: "IoT • BLYNK • SMART FARMING • MONITORING",
+    description: "An IoT-based smart farming project focused on monitoring crop and environmental conditions and supporting smarter agricultural management.",
+    tags: ["IoT", "Blynk", "Smart Farming", "Monitoring"],
+    accentColor: "from-emerald-500/20 via-cyan-500/10 to-transparent",
+    problem: "Traditional farming lacks continuous, automated monitoring of soil moisture, ambient humidity, and temperature, causing either water wastage or crop dehydration.",
+    solution: "Integrated telemetry sensors with a microcontroller connected to the Blynk IoT cloud dashboard, giving farmers live telemetry feeds and remote irrigation alerts.",
+    contribution: "Wrote sensor acquisition routines, configured Blynk virtual pins, and built responsive widget dashboards for immediate environmental feedback.",
+    learnings: [
+      "Interfacing microcontrollers with analog and digital sensor arrays",
+      "Configuring real-time telemetry streaming over WiFi protocols using Blynk",
+      "Analyzing sensor calibration offsets and threshold triggers",
+    ],
+    visualType: "iot",
+  },
+  {
+    id: "2d-graphical-editor",
+    number: "03",
+    title: "2D GRAPHICAL EDITOR",
+    subtitle: "2D-Graphical Editor in C",
+    category: "C • COMPUTER GRAPHICS",
+    description: "A C programming project created to explore graphical operations, programming logic, and interactive 2D graphics.",
+    tags: ["C", "Computer Graphics"],
+    githubUrl: "https://github.com/ruchithashetty007-rgb/2D-GRAPHICS-EDITOR.C",
+    accentColor: "from-violet-500/20 via-cyan-500/10 to-transparent",
+    problem: "Understanding how modern computer graphics software actually manipulates framebuffers, draw calls, and geometric algorithms at the low-level without modern game engines.",
+    solution: "Created an interactive terminal-based and graphics-driven 2D editor in C that allows plotting geometric primitives, line drawing algorithms, shape rasterization, and interactive canvas manipulation.",
+    contribution: "Authored low-level C rasterization logic, canvas state data structures, coordinate transformations, and user input handling loops.",
+    learnings: [
+      "Implementing rasterization algorithms (Bresenham line & circle drawing)",
+      "Managing structured data for coordinate matrices and canvas buffers in C",
+      "Debugging low-level pointer operations and memory structures",
+    ],
+    visualType: "graphics",
+  },
+];
+
+export const CERTIFICATES: Certificate[] = [
+  {
+    id: "ibm-python-101",
+    organization: "IBM SkillsBuild",
+    title: "Python 101 for Data Science",
+    issuerLogo: "IBM",
+    category: "Data Science & Programming",
+    verificationNote: "Foundational coursework covering Python data types, loops, functions, and standard data science libraries.",
+  },
+  {
+    id: "ibm-data-analysis",
+    organization: "IBM SkillsBuild",
+    title: "Data Analysis with Python",
+    issuerLogo: "IBM",
+    category: "Data Analysis",
+    verificationNote: "Applied training in data wrangling, exploratory data analysis, and summarizing tabular datasets.",
+  },
+  {
+    id: "ibm-data-visualization",
+    organization: "IBM SkillsBuild",
+    title: "Data Visualization with Python",
+    issuerLogo: "IBM",
+    category: "Data Visualization",
+    verificationNote: "Practical modules covering statistical visual plots, chart interpretation, and visual storytelling.",
+  },
+  {
+    id: "wadhwani-content",
+    organization: "Wadhwani",
+    title: "Certificate of Content Completion",
+    issuerLogo: "Wadhwani",
+    category: "Professional & Technical Content",
+    verificationNote: "Comprehensive structured curriculum on fundamental technical concepts and professional communication.",
+  },
+];
+
+export const LEARNING_LAB_ITEMS: LabTopic[] = [
+  { title: "PYTHON", tag: "FOUNDATION", focusArea: "Data structures, algorithm complexity & scripting", status: "Active Study" },
+  { title: "C", tag: "SYSTEMS", focusArea: "Memory allocation, pointers & procedural logic", status: "Active Study" },
+  { title: "C++", tag: "OBJECT-ORIENTED", focusArea: "Classes, abstractions & STL containers", status: "Active Study" },
+  { title: "DATA ANALYSIS", tag: "ANALYTICS", focusArea: "Tabular cleaning, metrics aggregation & distributions", status: "Hands-on Lab" },
+  { title: "DATA VISUALIZATION", tag: "INSIGHTS", focusArea: "Translating raw numerical records into clear graphs", status: "Hands-on Lab" },
+  { title: "AI", tag: "INTELLIGENCE", focusArea: "Intelligent agent models, heuristic search & problem solving", status: "Coursework" },
+  { title: "MACHINE LEARNING", tag: "MODELING", focusArea: "Supervised primitives, regression & error metrics", status: "Exploration" },
+];
+
+export const VERSION_METRICS = {
+  current: {
+    version: "v2.0",
+    status: "Active Deployment",
+    milestone: "2nd Year Engineering",
+    focus: "AI & Data Science Engineering (B.Tech)",
+    coreLanguages: "Python, C, C++",
+    highlights: [
+      "Strong foundational coursework at REVA University",
+      "3 Functional Academic & Practical Projects Built",
+      "4 Recognized Industry Certifications Completed",
+      "Merit-based admission with top-tier academic background",
+    ],
+  },
+  next: {
+    version: "v2.5+",
+    status: "Upcoming Target",
+    milestone: "Applied Engineering & Exploration",
+    focus: "Deepening Data Science & Machine Learning",
+    coreLanguages: "Applied ML Libraries, Advanced Data Structures",
+    highlights: [
+      "Advanced Machine Learning pipeline projects",
+      "End-to-end data analytics and predictive modeling",
+      "Open-source contributions and algorithmic challenges",
+      "Collaborative research and engineering applications",
+    ],
+  },
+};
+
+export const CAREER_PIPELINE = [
+  { step: "01", name: "LEARN", detail: "Absorbing core mathematics, algorithms, and computing languages", icon: "BookMarked" },
+  { step: "02", name: "BUILD", detail: "Constructing tangible software and hardware prototypes", icon: "Hammer" },
+  { step: "03", name: "EXPERIMENT", detail: "Testing edge cases, tuning data pipelines, and measuring outcomes", icon: "FlaskConical" },
+  { step: "04", name: "SOLVE", detail: "Applying technical insight to real human and environmental pain points", icon: "CheckCircle2" },
+  { step: "05", name: "GROW", detail: "Evolving into a versatile AI & Data Science engineering professional", icon: "TrendingUp" },
+];
